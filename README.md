@@ -18,7 +18,7 @@ Portfólio pessoal desenvolvido com Next.js e TypeScript, apresentando projetos,
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/paulorocha-dev/portfolio.git
+git clone https://github.com/paulorocha-dev/portfolio-paulo-rocha
 cd portfolio
 ```
 
@@ -49,7 +49,7 @@ Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
 O portfólio está publicado na Vercel e pode ser acessado em:
 
-**[https://portfolio-paulorocha.vercel.app](https://portfolio-paulorocha.vercel.app)**
+**[https://portfolio-paulo-rocha.vercel.app](https://portfolio-paulo-rocha.vercel.app)**
 
 Para realizar seu próprio deploy na Vercel:
 
