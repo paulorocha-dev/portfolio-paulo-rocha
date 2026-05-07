@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio — Paulo Henrique Rocha
 
-## Getting Started
+Portfólio pessoal desenvolvido com Next.js e TypeScript, apresentando projetos, habilidades e informações de contato.
 
-First, run the development server:
+## Tecnologias utilizadas
 
+- [Next.js](https://nextjs.org/) — framework React com suporte a SSR
+- [TypeScript](https://www.typescriptlang.org/) — tipagem estática
+- [Styled Components](https://styled-components.com/) — estilização com tema global
+- [Framer Motion](https://www.framer-motion.com/) — animações
+- [EmailJS](https://www.emailjs.com/) — envio de e-mails pelo formulário de contato
+
+---
+
+## Como rodar localmente
+
+**Pré-requisitos:** Node.js 18+ e npm instalados.
+
+**1. Clone o repositório**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/paulorocha-dev/portfolio.git
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. Instale as dependências**
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**3. Configure as variáveis de ambiente**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Crie um arquivo `.env.local` na raiz do projeto com suas credenciais do EmailJS:
+```env
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=seu_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=seu_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=sua_public_key
+```
 
-## Learn More
+**4. Inicie o servidor de desenvolvimento**
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy
 
-## Deploy on Vercel
+O portfólio está publicado na Vercel e pode ser acessado em:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**[https://portfolio-paulorocha.vercel.app](https://portfolio-paulorocha.vercel.app)**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para realizar seu próprio deploy na Vercel:
+
+1. Importe o repositório em [vercel.com](https://vercel.com)
+2. Configure as variáveis de ambiente do EmailJS no painel da Vercel
+3. Clique em **Deploy**
+
+---
+
+## Projetos apresentados
+
+### Cinelista
+Catálogo de filmes em destaque consumindo a API do TMDB, desenvolvido com Next.js e TypeScript.
+
+- **Repositório:** [github.com/paulorocha-dev/nextjs-cinelista](https://github.com/paulorocha-dev/nextjs-cinelista)
+- **Tecnologias:** Next.js, TypeScript, Vercel
+
+### PokeAPI REST
+API REST com FastAPI integrando PokeAPI, cache Redis, SQLite e pipeline CI/CD completo.
+
+- **Repositório:** [https://github.com/paulorocha-dev/Backend-API-Pokemon](https://github.com/paulorocha-dev/Backend-API-Pokemon)
+- **Tecnologias:** FastAPI, Redis, SQLite, GitHub Actions
+
+### To-do List
+To-do list com Next.js e TypeScript. Suporta prioridades, categorias, filtros e persistência via localStorage.
+
+- **Repositório:** [https://github.com/paulorocha-dev/todo-nextjs](https://github.com/paulorocha-dev/todo-nextjs)
+- **Tecnologias:** Next.js, TypeScript, Styled Components, Framer Motion
+
+---
+
+## Contato
+
+- **GitHub:** [github.com/paulorocha-dev](https://github.com/paulorocha-dev)
+- **LinkedIn:** [https://www.linkedin.com/in/paulo-henrique-rocha-dev/](https://www.linkedin.com/in/paulo-henrique-rocha-dev/)
