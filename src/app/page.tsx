@@ -4,6 +4,7 @@ import Projects from '@/components/Projects/Projects'
 import Skills from '@/components/Skills/Skills'
 import Navbar from '@/components/Navbar/Navbar'
 import Contact from '@/components/Contact/Contact'
+import Footer from '@/components/Footer/Footer'
 
 // Página principal
 export default function Home() {
@@ -19,7 +20,8 @@ export default function Home() {
       <Skills />
       {/* Seção de Contato */}
       <Contact />
-
+      {/* Footer */}
+      <Footer />
     </main>
   )
 }
